@@ -3,16 +3,20 @@
       "test": "atom --test spec"
    },
    "bugs": {
-      "url": "https://github.com/sean-codes/atom-browser/issues"
+      "url": "https://github.com/Alex313031/atom-ng-browser/issues"
    },
-   "description": "Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
+   "description": "Atom-ng-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
    "devDependencies": {},
    "engines": {
       "atom": ">=1.57.0 <2.0.0"
    },
-   "homepage": "https://github.com/sean-codes/atom-browser#readme",
+   "homepage": "https://github.com/Alex313031/atom-ng-browser#readme",
    "keywords": [
       "browser",
+      "atom",
+      "atom-ng",
+      "chromium",
+      "webview",
       "preview",
       "live reload",
       "web view",
@@ -20,15 +24,15 @@
    ],
    "license": "MIT",
    "main": "./lib/atom-browser",
-   "name": "atom-browser",
+   "name": "atom-ng-browser",
    "optionalDependencies": {},
-   "readme": "Atom-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
+   "readme": "Atom-ng-Browser is a plugin to browse the web, preview files, auto-reload, and search Google within Atom",
    "readmeFilename": "README.md",
    "repository": {
       "type": "git",
-      "url": "git@github.com:sean-codes/atom-browser.git"
+      "url": "git@github.com:Alex313031/atom-ng-browser.git"
    },
-   "version": "2.1.0",
+   "version": "2.1.1",
    "_atomModuleCache": {
       "version": 1,
       "dependencies": [],
@@ -107,7 +111,7 @@
       },
       "defaultLocation": {
          "title": "Default Location",
-         "description": "Choose the default dock location for the Atom Browser: right or bottom",
+         "description": "Choose the default dock location for the Atom-ng Browser: right or bottom",
          "type": "string",
          "default": "bottom",
          "enum": [
@@ -122,7 +126,7 @@
          ]
       },
       "initialUrl": {
-         "title": "Initial Url",
+         "title": "Initial URL",
          "description": "An initial URL to start in",
          "type": "string",
          "default": ""
@@ -158,6 +162,6 @@
       }
    },
    "dependencies": {
-      "express": "^4.17.1"
+      "express": "^4.17.3"
    }
 }
