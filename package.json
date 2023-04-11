@@ -2,7 +2,6 @@
    "scripts": {
       "test": "atom --test spec",
       "clean": "rm -r -f -v node_modules",
-      "install": "NODE_ENV=development",
       "build": "NODE_ENV=production npm install"
    },
    "bugs": {
