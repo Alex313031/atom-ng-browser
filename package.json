@@ -1,15 +1,19 @@
 {
    "scripts": {
-      "test": "atom --test spec"
+      "test": "atom --test spec",
+      "clean": "rm -r -f -v node_modules",
+      "install": "NODE_ENV=development",
+      "build": "NODE_ENV=production npm install"
    },
    "bugs": {
       "url": "https://github.com/Alex313031/atom-ng-browser/issues"
    },
-   "description": "Atom-ng-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom",
+   "description": "Atom-ng-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
    "devDependencies": {},
    "engines": {
       "atom": ">=1.57.0 <2.0.0"
    },
+   "author": "Alex313031 <Alex313031@gmail.com>",
    "homepage": "https://github.com/Alex313031/atom-ng-browser#readme",
    "keywords": [
       "browser",
@@ -26,13 +30,13 @@
    "main": "./lib/atom-browser",
    "name": "atom-browser",
    "optionalDependencies": {},
-   "readme": "Atom-ng-Browser is a plugin to browse the web, preview files, auto-reload, and search Google within Atom",
+   "readme": "Atom-ng-Browser is a plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
    "readmeFilename": "README.md",
    "repository": {
       "type": "git",
       "url": "git@github.com:Alex313031/atom-ng-browser.git"
    },
-   "version": "2.1.1",
+   "version": "2.1.2",
    "_atomModuleCache": {
       "version": 1,
       "dependencies": [],
