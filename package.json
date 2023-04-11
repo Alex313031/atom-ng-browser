@@ -27,7 +27,7 @@
    ],
    "license": "MIT",
    "main": "./lib/atom-browser",
-   "name": "atom-browser",
+   "name": "atom-ng-browser",
    "optionalDependencies": {},
    "readme": "Atom-ng-Browser is a plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
    "readmeFilename": "README.md",
@@ -88,7 +88,7 @@
          "title": "Show Statusbar Icon",
          "description": "Toggles the statusbar icon",
          "type": "boolean",
-         "default": false
+         "default": true
       },
       "showBackground": {
          "title": "Show Background",
@@ -132,7 +132,7 @@
          "title": "Initial URL",
          "description": "An initial URL to start in",
          "type": "string",
-         "default": ""
+         "default": "https://www.google.com/"
       },
       "z_experimental": {
          "type": "object",
