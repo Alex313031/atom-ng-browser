@@ -87,7 +87,7 @@
          "title": "Show Statusbar Icon",
          "description": "Toggles the statusbar icon",
          "type": "boolean",
-         "default": true
+         "default": false
       },
       "showBackground": {
          "title": "Show Background",
