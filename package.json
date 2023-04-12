@@ -14,10 +14,11 @@
    },
    "homepage": "https://github.com/Alex313031/atom-ng-browser#readme",
    "keywords": [
-      "browser",
       "atom",
-      "electron",
       "atom-ng",
+      "browser",
+      "chromium",
+      "electron",
       "preview",
       "live reload",
       "web view",
