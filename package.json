@@ -1,17 +1,13 @@
 {
    "scripts": {
       "test": "atom --test spec",
-      "clean": "shx rm -rf -v node_modules",
-      "build": "npm install && npm run clean && npm --production install"
+      "clean": "rm -rf -v node_modules",
+      "build": "npm --production install"
    },
    "bugs": {
       "url": "https://github.com/Alex313031/atom-ng-browser/issues"
    },
    "description": "Atom-ng-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
-   "devDependencies": {
-      "cross-env": "^7.0.3",
-      "shx": "^0.3.4"
-   },
    "engines": {
       "atom": ">=1.57.0 <2.0.0"
    },
