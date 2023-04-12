@@ -2,7 +2,7 @@
    "scripts": {
       "test": "atom --test spec",
       "clean": "shx rm -rf -v node_modules",
-      "build": "npm install && cross-env NODE_ENV=production npm install"
+      "build": "npm install && npm run clean && npm --production install"
    },
    "bugs": {
       "url": "https://github.com/Alex313031/atom-ng-browser/issues"
