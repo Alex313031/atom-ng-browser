@@ -8,6 +8,7 @@
       "url": "https://github.com/Alex313031/atom-ng-browser/issues"
    },
    "description": "Atom-ng-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
+   "devDependencies": {},
    "engines": {
       "atom": ">=1.57.0 <2.0.0"
    },
@@ -15,10 +16,6 @@
    "homepage": "https://github.com/Alex313031/atom-ng-browser#readme",
    "keywords": [
       "browser",
-      "atom",
-      "atom-ng",
-      "chromium",
-      "webview",
       "preview",
       "live reload",
       "web view",
@@ -113,7 +110,7 @@
       },
       "defaultLocation": {
          "title": "Default Location",
-         "description": "Choose the default dock location for the Atom-ng Browser: right or bottom",
+         "description": "Choose the default dock location for the Atom Browser: right or bottom",
          "type": "string",
          "default": "bottom",
          "enum": [
@@ -128,10 +125,10 @@
          ]
       },
       "initialUrl": {
-         "title": "Initial URL",
+         "title": "Initial Url",
          "description": "An initial URL to start in",
          "type": "string",
-         "default": "https://www.google.com/"
+         "default": ""
       },
       "z_experimental": {
          "type": "object",
@@ -164,6 +161,6 @@
       }
    },
    "dependencies": {
-      "express": "^4.17.3"
+      "express": "^4.17.1"
    }
 }
