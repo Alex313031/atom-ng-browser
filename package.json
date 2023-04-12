@@ -92,7 +92,7 @@
          "title": "Show Background",
          "description": "The default background is dark grey. Enable this for white",
          "type": "boolean",
-         "default": true
+         "default": false
       },
       "autoPrefix": {
          "title": "Prefix HTTPS",
@@ -128,7 +128,7 @@
       },
       "initialUrl": {
          "title": "Initial URL",
-         "description": "An initial URL to start in",
+         "description": "The initial URL to start at",
          "type": "string",
          "default": "https://www.google.com/"
       },
