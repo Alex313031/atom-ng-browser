@@ -1,18 +1,17 @@
 {
    "scripts": {
       "test": "atom --test spec",
-      "clean": "rm -rf -v node_modules",
-      "build": "npm --production install"
+      "build": "npm --production install",
+      "clean": "rm -r -v node_modules"
    },
    "bugs": {
       "url": "https://github.com/Alex313031/atom-ng-browser/issues"
    },
-   "description": "Atom-ng-Browser is the plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
+   "description": "Atom-ng-Browser is an extension to browse the web, preview files, auto-reload, and search Google within Atom-ng.",
    "devDependencies": {},
    "engines": {
       "atom": ">=1.57.0 <2.0.0"
    },
-   "author": "Alex313031 <Alex313031@gmail.com>",
    "homepage": "https://github.com/Alex313031/atom-ng-browser#readme",
    "keywords": [
       "browser",
@@ -25,7 +24,7 @@
    "main": "./lib/atom-browser",
    "name": "atom-ng-browser",
    "optionalDependencies": {},
-   "readme": "Atom-ng-Browser is a plugin to browse the web, preview files, auto-reload, and search Google within Atom-ng",
+   "readme": "Atom-ng-Browser is an extension to browse the web, preview files, auto-reload, and search Google within Atom-ng.",
    "readmeFilename": "README.md",
    "repository": {
       "type": "git",
@@ -84,13 +83,13 @@
          "title": "Show Statusbar Icon",
          "description": "Toggles the statusbar icon",
          "type": "boolean",
-         "default": false
+         "default": true
       },
       "showBackground": {
          "title": "Show Background",
          "description": "The default background is dark grey. Enable this for white",
          "type": "boolean",
-         "default": false
+         "default": true
       },
       "autoPrefix": {
          "title": "Prefix HTTPS",
@@ -110,22 +109,22 @@
       },
       "defaultLocation": {
          "title": "Default Location",
-         "description": "Choose the default dock location for the Atom Browser: right or bottom",
+         "description": "Choose the default dock location for the Atom-ng Browser: right or bottom",
          "type": "string",
          "default": "bottom",
          "enum": [
             {
                "value": "right",
-               "description": "Right Dock"
+               "description": "Docked Right"
             },
             {
                "value": "bottom",
-               "description": "Bottom Dock"
+               "description": "Docked Bottom"
             }
          ]
       },
       "initialUrl": {
-         "title": "Initial Url",
+         "title": "Initial URL",
          "description": "An initial URL to start in",
          "type": "string",
          "default": ""
@@ -136,7 +135,7 @@
          "properties": {
             "emitterEnabled": {
                "title": "Save ScrollY on reload",
-               "description": "Save ScrollY on reload. Enables emitting data from webview to atom",
+               "description": "Save ScrollY on reload. Enables emitting data from webview to atom-ng",
                "type": "boolean",
                "default": "false"
             },
@@ -161,6 +160,6 @@
       }
    },
    "dependencies": {
-      "express": "^4.17.1"
+      "express": "^4.17.3"
    }
 }
