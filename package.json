@@ -131,7 +131,7 @@
          "title": "Initial URL",
          "description": "The initial URL to start at",
          "type": "string",
-         "default": "https://www.google.com/"
+         "default": "https://thorium.rocks/atom-ng/"
       },
       "z_experimental": {
          "type": "object",
