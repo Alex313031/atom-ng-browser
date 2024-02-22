@@ -34,7 +34,7 @@
       "type": "git",
       "url": "git@github.com:Alex313031/atom-ng-browser.git"
    },
-   "version": "2.1.4",
+   "version": "2.1.5",
    "_atomModuleCache": {
       "version": 1,
       "dependencies": [],
@@ -115,7 +115,7 @@
          "title": "Default Location",
          "description": "Choose the default dock location for the Atom-ng Browser: right or bottom",
          "type": "string",
-         "default": "right",
+         "default": "bottom",
          "enum": [
             {
                "value": "right",
